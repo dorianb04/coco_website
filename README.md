@@ -49,8 +49,11 @@ L’ensemble du travail de conception de ce site consiste à toucher en priorit�
 • JavaScript.
 - Il n’est pas question de créer de liens avec une base de données et d’implémenter un moteur de recherche au sein du site.
 
+## V. Fourniture du produit
+Le produit sera mis en ligne sur internet et hébergé sur le serveur de M. Nicolas THOREL et sera accessible via l’adresse suivante :
+https://mm01.thorelnicolas.fr/a20/boucherd/projet/
 
-## V. Droits d'auteurs
+## VI. Droits d'auteurs
 • Autorisation gracieuse de l'exploitation interne de la production réalisée dans le cadre de cette U.E. par d'autres étudiants et/ou les personnels de l'UTT et les enseignants (permanents ou vacataires).
 • Droit à éventuelle modification ou évolution de cette production dans le but d'en faire une présentation « pédagogique ».
 • Renoncement express à toute rémunération pour la réalisation, l'exploitation et l'éventuelle évolution de cette production
