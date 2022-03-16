@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Plongez dans l'univers du film d'animation disney COCO!">
+    <!-- Description -->
+    <meta name="keywords" content="mm01, programmation, html, site, films, animation, dessin animé, COCO">
+    <!-- Mots clés -->
+    <meta name="author" content="Dorian Boucher">
+    <!-- Auteur -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+</head>
+
+<body>
+
+
+    <!--Partie Header -->
+    <header>
+        <div class="top">
+            <a href="../index.html">
+                <img src="../img/Logo du site.png" alt="Logo Coco">
+            </a>
+        </div>
+        <!-- Navigation version mobile -->
+        <nav class="mobile">
+            <div id="menu-button">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu-mobile">
+                    <li>
+                        <a href="../index.html">Accueil</a>
+                    </li>
+
+                    <li class="dropdown1">
+                        <a href="#">Présentation</a>
+                        <ul>
+                            <li><a href="../page/histoire.html">Histoire</a></li>
+                            <li><a href="../page/dia_de_los_muertos.html">El día de los muertos</a></li>
+                            <li><a href="../page/personnages.html">Personnages</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown2">
+                        <a href="#">Conception</a>
+                        <ul>
+                            <li><a href="../page/conception.html">Conception du film</a></li>
+                            <li><a href="../page/credits_film.html">Crédits du film</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown3">
+                        <a href="#">Bonus</a>
+                        <ul>
+                            <li><a href="../page/galerie.html">Galerie</a></li>
+                            <li><a href="../page/quizz.html">Quizz</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="../page/credits_dev.html">Crédits</a>
+                    </li>
+
+                    <li>
+                        <a href="../page/formulaire.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation version desktop -->
+        <nav class="desktop">
+            <ul>
+                <li>
+                    <a href="../index.html">Accueil</a>
+                </li>
+
+                <li>
+                    <a href="#">Présentation</a>
+                    <ul>
+                        <li><a href="../page/histoire.html">Histoire</a></li>
+                        <li><a href="../page/dia_de_los_muertos.html">El día de los muertos</a></li>
+                        <li><a href="../page/personnages.html">Personnages</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Conception</a>
+                    <ul>
+                        <li><a href="../page/conception.html">Conception du film</a></li>
+                        <li><a href="../page/credits_film.html">Crédits du film</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Bonus</a>
+                    <ul>
+                        <li><a href="../page/galerie.html">Galerie</a></li>
+                        <li><a href="../page/quizz.html">Quizz</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../page/credits_dev.html">Crédits</a>
+                </li>
+
+                <li>
+                    <a href="../page/formulaire.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titre2">
+        <h1>Questions / Remarques</h1>
+    </div>
+
+    <section class="container_section">
+        <div class="container_description">
+            <form class="formulaire" action="mailto:dorian.boucher@utt.fr" method="post" enctype="text/plain" accept-charset="utf-8">
+
+                <!-- Champ de texte pour écrire son nom et prénom  -->
+                <label for="nom">Votre nom complet :</label>
+                <br>
+                <input type="text" size="40" maxlength="25" id="nom" name="nom" placeholder="NOM Prénom" required>
+
+                <br><br>
+
+                <!-- Champ pour rentrer son adresse mail  -->
+                <label for="mail">Adresse e-mail :</label>
+                <br>
+                <input type="email" id="post" name="adresse_email" placeholder="prénom.nom@utt.fr" required>
+
+
+                <br><br>
+
+                <!-- Liste pour savoir quel est le statut de la personne -->
+                <label for="statut">Vous êtes ?</label>
+                <br>
+                <select name="activite" id="activite" required>
+					<option value="etudiant">Étudiant</option>
+					<option value="prof" id="prof">Professeur</option>
+					<option value="autre" id="autre">Autre</option>
+				</select>
+
+                <br><br>
+
+                <!-- Champ pour écrire son message  -->
+                <label for="comment">Votre message :</label>
+                <br>
+                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
+                <br><br>
+
+                <!-- Bouton d'envoie. -->
+                <div id="bouton_formulaire">
+                    <input type="submit" class="input_envoie_form" value="Envoyer" />
+                </div>
+
+
+            </form>
+    </section>
+
+
+    <br>
+    <footer class="footer">
+        <p>Copyright © <a href="mailto:dorian.boucher@utt.fr">Dorian BOUCHER</a> - A20 - MM01</p>
+    </footer>
+</body>
+
+</html>

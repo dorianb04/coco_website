@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Plongez dans l'univers du film d'animation disney COCO!">
+    <!-- Description -->
+    <meta name="keywords" content="mm01, programmation, html, site, films, animation, dessin animé, COCO">
+    <!-- Mots clés -->
+    <meta name="author" content="Dorian Boucher">
+    <!-- Auteur -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quizz</title>
+</head>
+
+<body>
+
+
+    <!--Partie Header -->
+    <header>
+        <div class="top">
+            <a href="../index.html">
+                <img src="../img/Logo du site.png" alt="Logo Coco">
+            </a>
+        </div>
+        <!-- Navigation version mobile -->
+        <nav class="mobile">
+            <div id="menu-button">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu-mobile">
+                    <li>
+                        <a href="../index.html">Accueil</a>
+                    </li>
+
+                    <li class="dropdown1">
+                        <a href="#">Présentation</a>
+                        <ul>
+                            <li><a href="../page/histoire.html">Histoire</a></li>
+                            <li><a href="../page/dia_de_los_muertos.html">El día de los muertos</a></li>
+                            <li><a href="../page/personnages.html">Personnages</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown2">
+                        <a href="#">Conception</a>
+                        <ul>
+                            <li><a href="../page/conception.html">Conception du film</a></li>
+                            <li><a href="../page/credits_film.html">Crédits du film</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown3">
+                        <a href="#">Bonus</a>
+                        <ul>
+                            <li><a href="../page/galerie.html">Galerie</a></li>
+                            <li><a href="../page/quizz.html">Quizz</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="../page/credits_dev.html">Crédits</a>
+                    </li>
+
+                    <li>
+                        <a href="../page/formulaire.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation version desktop -->
+        <nav class="desktop">
+            <ul>
+                <li>
+                    <a href="../index.html">Accueil</a>
+                </li>
+
+                <li>
+                    <a href="#">Présentation</a>
+                    <ul>
+                        <li><a href="../page/histoire.html">Histoire</a></li>
+                        <li><a href="../page/dia_de_los_muertos.html">El día de los muertos</a></li>
+                        <li><a href="../page/personnages.html">Personnages</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Conception</a>
+                    <ul>
+                        <li><a href="../page/conception.html">Conception du film</a></li>
+                        <li><a href="../page/credits_film.html">Crédits du film</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Bonus</a>
+                    <ul>
+                        <li><a href="../page/galerie.html">Galerie</a></li>
+                        <li><a href="../page/quizz.html">Quizz</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../page/credits_dev.html">Crédits</a>
+                </li>
+
+                <li>
+                    <a href="../page/formulaire.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titre2">
+        <h1>Quizz</h1>
+    </div>
+
+    <section class="container_section">
+        <div id="Quizz">
+            <div id="Titre_Quizz">
+                <h1>Un petit Quizz pour tester tes connaissances accumlées grâce à ce magnifique site (sisi...). </h1>
+            </div>
+            <div class="espace"></div>
+            <form id="form_quizz">
+                <div id="Question">
+                    <p class="questions">Dans quel Pays fête-t-on "El dia de los muertos" ?</p>
+                    <input type="radio" name="q1" value="0" id="q1a" required><label for="q1a">Espana amigo !</label><br>
+                    <input type="radio" name="q1" value="0" id="q1b" required><label for="q1b">Japon</label><br>
+                    <input type="radio" name="q1" value="1" id="q1c" required><label for="q1c">Mexico contigo</label><br>
+                    <input type="radio" name="q1" value="0" id="q1d" required><label for="q1d">Chili</label><br>
+                </div>
+                <div class="espace"></div>
+                <div id="Question">
+                    <p class="questions">Comment s'appelle le chien qui accompagne Miguel dans l'au delà ?</p>
+                    <input type="radio" name="q2" value="1" id="q2a" required><label for="q2a">Dante</label><br>
+                    <input type="radio" name="q2" value="0" id="q2b" required><label for="q2b">Denta</label><br>
+                    <input type="radio" name="q2" value="0" id="q2c" required><label for="q2c">Dantetanteta</label><br>
+                    <input type="radio" name="q2" value="0" id="q2d" required><label for="q2d">Rex</label><br>
+                </div>
+
+                <div class="espace"></div>
+                <div id="Question">
+                    <p class="questions">Qui est le vrai ancètre de Miguel ?</p>
+                    <input type="radio" name="q3" value="0" id="q3a" required><label for="q3a">Ernesto de la cruz</label><br>
+                    <input type="radio" name="q3" value="1" id="q3b" required><label for="q3b">Hector</label><br>
+                    <input type="radio" name="q3" value="0" id="q3c" required><label for="q3c">Le père noël</label><br>
+                    <input type="radio" name="q3" value="0" id="q3d" required><label for="q3d">Cette réponse bien trop vague pour être répondue</label><br>
+                </div>
+                <div class="espace"></div>
+
+
+                <div id="Question">
+                    <p class="questions">Comment se nomme le doubleur qui a fait la voix originale de Hector ?</p>
+                    <input type="radio" name="q4" value="0" id="q4a" required><label for="q4a">Bernal García Gael</label><br>
+                    <input type="radio" name="q4" value="1" id="q4b" required><label for="q4b">Gael García Bernal</label><br>
+                    <input type="radio" name="q4" value="0" id="q4c" required><label for="q4c">Hector Rivera</label><br>
+                    <input type="radio" name="q4" value="0" id="q4d" required><label for="q4d">Louis de Funès</label><br>
+                </div>
+                <div class="espace"></div>
+                <div id="Question">
+                    <p class="questions">Faut-il voir ce dessin animé ?</p>
+                    <input type="radio" name="q5" value="1" id="q5a" required><label for="q5a">Oui !</label><br>
+                    <input type="radio" name="q5" value="1" id="q5b" required><label for="q5b">Cela dépend des goûts de chacun</label><br>
+                    <input type="radio" name="q5" value="1" id="q5c" required><label for="q5c">Pour sûr</label><br>
+                    <input type="radio" name="q5" value="1" id="q5d" required><label for="q5d">Très franchement, je l'ai déjà vu et pas ouf</label><br>
+                </div>
+
+                <div class="bouton_quizz">
+                    <input type="submit" class="input_quizz" value="Résultat">
+                </div>
+            </form>
+            <br><br>
+            <p id="p_resultat">Votre résultat est : <span id="note">__</span>/5</p>
+            <p id="note2" style="text-align: center;"></p>
+        </div>
+        <script>
+            document.getElementById("form_quizz").onsubmit = function() {
+                    q1 = parseInt(document.querySelector('input[name = "q1"]:checked').value);
+                    q2 = parseInt(document.querySelector('input[name = "q2"]:checked').value);
+                    q3 = parseInt(document.querySelector('input[name = "q3"]:checked').value);
+                    q4 = parseInt(document.querySelector('input[name = "q4"]:checked').value);
+                    q5 = parseInt(document.querySelector('input[name = "q5"]:checked').value);
+
+                    result = q1 + q2 + q3 + q4 + q5;
+
+                    document.getElementById("note").innerHTML = result;
+
+                    if (result == 0) {
+                        result2 = "Franchement pas fou là"
+                    };
+                    if (result == 1) {
+                        result2 = "Franchement là, vas revoir les pages du site c'est pas si dur que ça en vrai"
+                    };
+                    if (result == 2) {
+                        result2 = "Mouais ça casse pas 3 pattes à un canard"
+                    };
+                    if (result == 3) {
+                        result2 = "En vrai ça passe mais bon... concentres toi je sais que tu peux le faire"
+                    };
+
+                    if (result == 4) {
+                        result2 = "Franchement BG, il ne te manque plus qu'une réponse de bonne pour le perfect"
+                    };
+
+                    if (result == 5) {
+                        result2 = "J'avoue que là, perfect, j'aurais pas fait mieux"
+                    };
+
+                    document.getElementById("note2").innerHTML = result2;
+
+                    return false; // required to not refresh the page; just leave this here
+                } //this ends the submit function
+        </script>
+    </section>
+
+
+
+    <br>
+    <footer class="footer">
+        <p>Copyright © <a href="mailto:dorian.boucher@utt.fr">Dorian BOUCHER</a> - A20 - MM01</p>
+    </footer>
+</body>
+
+</html>
