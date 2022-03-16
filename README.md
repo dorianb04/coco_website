@@ -1,4 +1,4 @@
-# coco_website
+# Création d'un site internet vitrine sur le film d'animation Coco
 
 ## I. Introduction
 ### 1. Contexte du projet
